@@ -1,0 +1,63 @@
+---
+title: "Developing Data products week 4 assignment"
+author: "Vikas Gupta"
+date: "2023-04-28"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction 
+
+In this assignment we are going to demonstrate to calculate area and 
+hypotenuse of Triangle . The application demostrates the usage of tabs to take
+inputs from the user interface and calculates the area and hypotenuse
+of the triangle.
+
+
+
+
+
+
+
+## Aplication detail 
+ 
+ - This assignment was to develope a web application using R and shiny package .
+ - The application take 2 inputs in form of sides of triangle and calculates
+   the hypotenuse using pythagoras theorem and area of the triangle.
+-  the application we made for calculate area and hypetenues can be found 
+   here - https://vikku007.shinyapps.io/developing_data_products/
+   
+  
+
+
+
+
+
+## R Code for calculating the area of triangle and hypotenuse of the traingle
+
+The below function calculates the area of triangle using the below code - 
+calculateArea <- function (base, height) { result <- 0.5 * base * height return(round(result, digits = 2)) }
+
+The below function calculates the hypotenuse of triangle using the below code
+
+-  calculatehypotenuse <- function (base, height) { 
+   result <- sqrt(base^2 + height^2) return(round(result, digits = 2))
+   }
+
+
+
+
+
+
+## Conclusion
+This app will help the users in calculating the area of the triangle and 
+hypotenuse of triangle.. The github repository containing the Shiny programs
+(ui.R and server.R) are found here:
+
+
+
+
+## THANK YOU
