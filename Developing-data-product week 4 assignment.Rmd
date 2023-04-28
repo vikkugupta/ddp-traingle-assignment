@@ -56,6 +56,8 @@ The below function calculates the hypotenuse of triangle using the below code
 This app will help the users in calculating the area of the triangle and 
 hypotenuse of triangle.. The github repository containing the Shiny programs
 (ui.R and server.R) are found here:
+https://github.com/vikkugupta/ddp-traingle-assignment
+
 
 
 
